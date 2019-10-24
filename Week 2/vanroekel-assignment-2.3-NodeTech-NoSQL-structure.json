@@ -1,0 +1,54 @@
+{
+    "Class": {
+        "_id": 100,
+        "name": "Science",
+        "Enroll": [
+            {
+                "_id": 987,
+                "Student": {
+                    "_id": 987,
+                    "first_name": "Faye",
+                    "last_name": "Van Roekel",
+                    "mi": "L"
+                },
+                "grade": "A"
+            },
+            {
+                "_id": 101,
+                "Student": {
+                    "_id": 101,
+                    "first_name": "Chris",
+                    "last_name": "De Smit",
+                    "mi": "M"
+                },
+                "grade": "A"
+            }
+        ]
+    }
+}
+{
+    "Student": {
+        "_id": 987,
+        "first_name": "Faye",
+        "last_name": "Van Roekel",
+        "mi": "L",
+        "Enroll": [
+            {
+                "_id": 100,
+                "Class": {
+                    "_id": 100,
+                    "name": "Science"
+                },
+                "grade": "A"
+            },
+            {
+                "_id": 200,
+                "Class": {
+                    "_id": 2,
+                    "name": "Algebra"
+                },
+                "grade": "A" 
+            }
+        ]
+    }
+}
