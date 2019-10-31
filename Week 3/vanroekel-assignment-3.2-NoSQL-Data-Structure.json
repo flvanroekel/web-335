@@ -1,0 +1,45 @@
+{
+    "user": [
+        {
+            "user_id": 123123,
+            "name": "Chris De Smit",
+            "link_user_role": {
+                "user_role_id": "123123a",
+                "role": {
+                    "role_id": "Level 1",
+                    "role_title": "Manager",
+                    "link_role_permission": {
+                        "role_permission_id": "Level 1"
+                    }
+                }
+
+            }
+        },
+        {
+            "user_id": 123124,
+            "name": "Jasmine De Smit",
+            "link_user_role": [
+                {
+                    "user_role_id": "123124a",
+                    "role": {
+                        "role_id": "Level 2",
+                        "role_title": "Secretary",
+                        "link_role_permission": {
+                            "role_permission_id": "Level 2"
+                        }
+                    }
+                },
+                {
+                    "user_role_id": "123125",
+                    "role": {
+                        "role_id": "Level 3",
+                        "role_title": "Employee1",
+                        "link_role_permission": {
+                            "role_permission_id": "Level 3"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
