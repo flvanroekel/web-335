@@ -1,0 +1,33 @@
+{
+    "publisher": {
+      "publisher_name": "Allie De Smit",
+      "publisher_code": "089",
+      "publisher_address": "Sioux Center, IA  51250",
+      "book": [
+        { 
+          "book_isbn": "123-10-98765-10-0",
+          "book_name": "Allie's Story",
+          "book_price": 13.99,
+          "author": {
+            "author_first_name": "Allie",
+            "author_last_name": "De Smit",
+            "author_phone": "222-222-2222",
+            "author_email": "allietheauthor@gmail.com"
+          }
+        },
+        { 
+          "book_isbn": "124-11-87654-11-1",
+          "book_name": "Jasmine's Story",
+          "book_price": 15.00,
+          "author": [
+            {
+              "author_first_name": "Jasmine",
+              "author_last_name": "De Smit",
+              "author_phone": "111-111-1111",
+              "author_email": "jasminetheauthor.com"
+            }
+          ]
+        }
+      ] 
+    }
+  }
